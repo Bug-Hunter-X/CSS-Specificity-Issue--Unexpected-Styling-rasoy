@@ -1,0 +1,21 @@
+/* bugSolution.css */
+
+/* Solution 1: Increase specificity of the general selector */
+#myElement {
+  color: blue; /* Increase specificity of the general selector */
+}
+
+/* Solution 2: Use !important flag (use with caution) */
+.myClass {
+  color: red !important; /* Use !important flag to override */
+}
+
+/* Solution 3: Re-structure the CSS rules */
+.myClass {
+  color: red;
+}
+
+#myElement {
+  color: blue;
+}
+/* Place the more specific rule first */
